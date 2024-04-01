@@ -1,0 +1,54 @@
+/* mouse over link */
+   a:hover {
+    color: rgb(228, 228, 19);
+  }
+  
+  /* selected link */
+  a:active {
+    color: black;
+  }
+div {
+              width: 700px;
+              margin: auto;
+              color:#ffffff;
+              background-color: rgb(255, 255, 255);
+              }
+h1{ 
+    font-family: 'Roboto Slab', serif;
+      text-align: center;
+      color: rgb(19, 151, 151);
+}
+h2{
+    background-color: rgb(246, 248, 248);
+    color:rgb(93, 202, 235)
+}
+h3{
+    color:rgb(245, 99, 99)
+}
+body {
+    line-height: 18px;
+    font-family:  'Roboto Slab', serif;
+    background-color: #f8f8f8;
+    overflow-x: hidden;
+    font-size: 15px;
+        text-align: left; 
+}
+.doan1{
+    font-family:  'Roboto Slab', serif;
+    font-size: 15px;
+    color:rgb(6, 6, 6);
+}
+#tomtat{
+    color:rgb(9, 9, 9);
+    font-family: 'Roboto Slab', serif;
+}
+.doan2{
+    font-family:  'Roboto Slab', serif;
+    font-size: 14px;
+    color:rgb(66, 68, 189);
+    background-color: rgb(255, 255, 255);
+    text-align: center; 
+}
+img{
+    width: 100%;
+}
