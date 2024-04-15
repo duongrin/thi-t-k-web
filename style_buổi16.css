@@ -1,0 +1,227 @@
+.div1{
+    max-width: 2000px;
+    padding: 20px;
+    padding-right: 20px;
+    float: left;
+    font-family: Century Gothic;
+}
+a:visited, a:link{
+    text-decoration: none;
+}
+.div2{
+    background-color: rgb(240, 240, 240);
+    padding-top: 30px; padding-left: 30px;
+    margin: auto;
+    max-width: 2000px;
+}
+
+.path{
+    float: left;
+}
+h1{
+    font-size: 64px;
+    padding-top: 20px;padding-bottom: 40px;
+}
+a.chu{
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+a.chu::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    width: 0%;
+    height: 1px;
+    background-color: black;
+    transition: 0.4s;
+}
+a.chu:hover::after{
+    width: 100%;
+    right: 0;
+}
+ul li{
+    float: left;
+}
+ul li a{
+    text-decoration: none;
+    padding: 14px 16px;
+    text-align: center;
+    color: rgb(0, 0, 0); 
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+body{
+    margin: 0;
+}
+.dinh{
+    position: fixed;
+}
+.column {
+    flex: 30%;
+    max-width: 30%;
+    padding: 0 4px;
+  }
+  .column img {
+    margin-top: 14px;
+    vertical-align: middle;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 14px 4px;
+  }
+  .bo{
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    
+}
+.bo, .lop1, .lop2, .lop3{
+    width: 400px;
+    height: 280px;
+}
+.bo .lop1{
+    padding: 5px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    transition: 0.4s;
+}
+.bo .lop2{
+    opacity: 0;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    right: 20px;
+    background-color: white;
+    transition: 0.4s;
+    width: 365px;
+    bottom: 40px;
+    height: auto;
+}
+.bo:hover .lop2{
+    opacity: 0.7;
+    transform: scaleY(1.2);
+}
+.bo .lop3{
+    position: absolute;
+    top: 50px;
+    left: 55px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    opacity: 0;
+    transition: 0.4s;
+    
+}
+.bo:hover .lop3{
+    opacity: 1;
+}
+.mau {
+font-style: italic;
+color: gray;
+font-size: 18px;
+position: relative;
+}
+h2{
+    color: black;
+}
+.bo1{
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    
+}
+.bo1, .lop4, .lop5, .lop6{
+    width: 350px;
+    height: 280px;
+}
+.bo1 .lop4{
+    padding: 5px 5px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    transition: 0.4s;
+    
+}
+.bo1 .lop5{
+    opacity: 0;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    right: 20px;
+    background-color: rgb(76, 76, 76);
+    transition: 0.4s;
+    width: 350px;
+    bottom: 40px;
+    height: auto;
+    padding: 5px 5px;
+}
+.bo1:hover .lop5{
+    opacity: 1;
+}
+.bo1 .lop6{
+    position: absolute;
+    top: 100px;
+    left: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    opacity: 0;
+    transition: 0.4s;
+    text-align: center;
+    max-width: 350px;
+    max-height: 280px;
+    padding: 5px 5px;
+}
+.bo1:hover .lop6{
+    opacity: 1;
+}
+.column1 {
+    flex: 22%;
+    max-width: 22%;
+    padding: 0 8px;
+  }
+  .column1 img {
+    margin-top: 14px;
+    vertical-align: middle;
+  }
+.div3{
+    background-color: rgb(231, 231, 231);
+    padding-top: 30px; padding-left: 30px;
+    margin: auto;
+    max-width: 2000px;
+    text-align: center;
+    height: auto;
+    
+}
+h3{
+    font-size: 24px;
+}
+.gach{
+    border-bottom: 1px solid rgb(191, 191, 191);
+    max-width: 1500px; 
+}
+.p{
+    text-align: center;
+    padding: 20px;
+}
+i {
+    width: 18px;
+    height: 18px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+}
+.canh{
+    padding-top: 30px;
+}
+.do{
+    float: right;
+    padding-right: 10px;
+}
